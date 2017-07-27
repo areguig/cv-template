@@ -1,0 +1,26 @@
+<div id="job" class="row mobmid">
+    <div class="col-sm-1">
+        <span class="secicon fa fa-briefcase"></span>
+    </div><!--icon end-->
+
+    <div class="col-sm-11">
+        <h3>Job Experiences</h3>
+
+        {% for job in site.data.experience %}
+         <div class="row">
+            <div class="col-md-9">
+                <h4> {{ job.position }} </h4>
+                <p class="sub"><a target="_blank" href="{{ job.company_website }}">{{ job.company }}</a>
+                </p>
+                {{ job.summary }}
+            </div>
+
+            <div class="year col-md-3">
+                <p>  {{ job.duration }}</p>
+            </div>
+        </div><!--Job 1 end-->
+        <hr>
+        {% endfor %}
+
+    </div><!--Job experiences end-->
+</div><!--Job experiences end-->

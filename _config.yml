@@ -1,0 +1,30 @@
+
+title: Son Goku
+description: Son Goku's CV
+
+author: Son Goku
+
+google_analytics: UA-XXXXXXXX # your google analytics id. Comment to not include the snippet
+
+# Header CV properties
+# header
+cv_name: Son GOKU
+position: Super Saiyen Engineer
+avatar_src: http://img13.deviantart.net/3019/i/2014/341/a/6/goku_by_maffo1989_d4vxux4_by_redhavic-d893blg.png
+website_url: https://areguig.github.io
+email: son.goku@capsule-corp.dbz
+
+github_username: areguig
+twitter_handle: aklireguig
+linkedin_username: areguig
+stackoverflow_story_id: 1360584
+
+summary: <p> Phasellus id imperdiet enim, ut congue sapien. Mauris sed turpis dolor. Aenean tempus elit ligula, at pulvinar erat accumsan ut. Vivamus libero risus, congue ut lacinia a, iaculis nec lorem. Quisque accumsan magna quis elit lobortis, in feugiat magna mattis. Donec venenatis ultrices dui et placerat. Integer tortor metus, tristique at rutrum nec, finibus id elit.</p>
+
+
+baseurl: "/cv-template" # the subpath of your site, e.g. /blog
+url: "https://areguig.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
