@@ -1,0 +1,16 @@
+        <div class="row">
+                <div class="col-sm-1 col-md-2 mobmid">
+                    <span class="secicon fa fa-magic"></span>
+                </div><!--icon end-->
+                <div class="col-sm-11 col-md-10">
+                    <h3 class="mobmid">Technical skills </h3>
+                    {% for skill in site.data.skills %}
+                        <p>{{ skill.name }}</p>
+                        <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="{{ skill.knowledge_percentage }}" aria-valuemin="0" aria-valuemax="100" style="width:{{ skill.knowledge_percentage }}%;background-color:{{ skill.color }};">      
+                        </div>
+                    </div><!--skill end-->
+                    {% endfor %}
+                    
+                </div>
+            </div>

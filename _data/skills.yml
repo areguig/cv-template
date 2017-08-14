@@ -1,0 +1,16 @@
+
+- name: Java
+  knowledge_percentage: 85
+  color: green
+  
+- name: SQL, Shell, JavaScript, UML
+  knowledge_percentage: 65
+  color: #default value is #428bca
+
+- name: Golang, Python
+  knowledge_percentage: 50
+  color: "#f0ad4e"
+
+- name: Dart, C
+  knowledge_percentage: 30
+  color: "#d9534f"
