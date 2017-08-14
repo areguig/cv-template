@@ -1,16 +1,16 @@
 
-- name: Java
+- name: Kamehameha, Kaio-ken, Super Saiyan, Super Saiyan 2 
   knowledge_percentage: 85
   color: green
   
-- name: SQL, Shell, JavaScript, UML
+- name: Kaio-ken Finish, Meteor Blast, Super Saiyan 3, Super Saiyan God
   knowledge_percentage: 65
   color: #default value is #428bca
 
-- name: Golang, Python
+- name: Regeneration, Great Ape
   knowledge_percentage: 50
   color: "#f0ad4e"
 
-- name: Dart, C
+- name: Mind Reading, Energy Barrier
   knowledge_percentage: 30
   color: "#d9534f"
